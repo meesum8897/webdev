@@ -1,0 +1,68 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.container
+{
+	width: 100%;
+	height: 200px;
+	background-color: red;
+}
+.left
+{
+	width: 33.33%;
+	height:inherit;
+	background-color: blue;
+	float: left;
+}
+.center
+{
+	width: 33.33%;
+	height:inherit;
+	background-color: yellow;
+	float: left;
+}
+.right
+{
+	width: 33.33%;
+	height:inherit;
+	background-color: black;
+	float: left;
+}
+.left .box1, .right .box1
+{
+	width: 50%;
+	height: 50%;
+	background-color: brown;
+	float: left;
+}
+.left .box2, .right .box2
+{
+	width: 50%;
+	height: 50%;
+	background-color: aqua;
+	float: left;
+}
+.left .box3, .right .box3
+{
+	width: 50%;
+	height: 50%;
+	background-color: gold;
+	float: left;
+}
+.left .box4, .right .box4
+{
+	width: 50%;
+	height: 50%;
+	background-color: pink;
+	float: left;
+}
+.small-box
+{
+	width: 50%;
+	height: 50%;
+	background-color: blue;
+	margin-left: 50px;
+	margin-top: 25px;
+}
