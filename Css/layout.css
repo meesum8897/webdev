@@ -1,37 +1,79 @@
 *
 {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 .container
 {
 	width: 100%;
-	height: 500px;
-	background-color: black;
+	height: auto;
 }
 .top-header
 {
 	width: 100%;
-	height: 70px;
-	background-color: red;
+	height: 50px;
+	background-color: #316dc3;
 }
-.navigation-bar
+.left
 {
-	width: 100%;
-	height: 200px;
-	background-color: blue;
-}
-.logo
-{
-	width: 30%;
+	width: 25%;
 	height: inherit;
-	background-color: yellow;
 	float: left;
 }
-.navigation
+.center
 {
-	width: 70%;
+	width: 50%;
 	height: inherit;
-	background-color: brown;
 	float: left;
+}
+.right
+{
+	width: 25%;
+	height: inherit;
+	float: left;
+}
+.top-header .left .social-icons
+{
+	width: 80%;
+	height: 35px;
+	margin-left: 8%;
+	margin-top: 1.5%;
+	padding-top: 5px;
+}
+.top-header .left .social-icons .icons
+{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	margin-left: 17px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+
+.top-header .right .social-btn
+{
+	width: 80%;
+	height: 35px;
+	margin-left: 8%;
+	margin-top: 1.5%;
+}
+
+.top-header .right .social-btn .btn
+{
+	width: 70px;
+	height: 25px;
+	margin-top: 5px;
+	margin-left: 10px;
+	float: left;
+	color: green;
+	border-radius: 0px;
+	outline: none;
+	border: none;
+
+}
+.top-header .right .social-btn .btn:nth-child(2)
+{
+	width: 80px;
 }
